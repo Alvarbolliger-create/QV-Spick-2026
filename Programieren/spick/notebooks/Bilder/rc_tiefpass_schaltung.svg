@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="white" />
+  
+  <path d="M 50 80 L 130 80" stroke="black" stroke-width="2" fill="none" />
+  <path d="M 210 80 L 350 80" stroke="black" stroke-width="2" fill="none" />
+  <path d="M 50 200 L 350 200" stroke="black" stroke-width="2" fill="none" />
+  <path d="M 280 80 L 280 130" stroke="black" stroke-width="2" fill="none" />
+  <path d="M 280 150 L 280 200" stroke="black" stroke-width="2" fill="none" />
+
+  <rect x="130" y="65" width="80" height="30" stroke="black" stroke-width="2" fill="none" />
+  <text x="160" y="55" font-family="Arial" font-size="16" font-weight="bold">R</text>
+
+  <line x1="260" y1="130" x2="300" y2="130" stroke="black" stroke-width="2" />
+  <line x1="260" y1="150" x2="300" y2="150" stroke="black" stroke-width="2" />
+  <text x="310" y="150" font-family="Arial" font-size="16" font-weight="bold">C</text>
+
+  <circle cx="50" cy="80" r="4" fill="black" />
+  <circle cx="50" cy="200" r="4" fill="black" />
+  <circle cx="350" cy="80" r="4" fill="black" />
+  <circle cx="350" cy="200" r="4" fill="black" />
+
+  <text x="25" y="150" font-family="Arial" font-size="16" font-weight="bold">
+    U<tspan baseline-shift="sub" font-size="70%">in</tspan></text>
+  <path d="M 50 100 L 50 180" stroke="black" stroke-width="1" marker-end="url(#arrow)" />
+  
+  <text x="360" y="150" font-family="Arial" font-size="16" font-weight="bold">
+    U<tspan baseline-shift="sub" font-size="70%">out</tspan></text>
+  <path d="M 350 100 L 350 180" stroke="black" stroke-width="1" marker-end="url(#arrow)" />
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="black" />
+    </marker>
+  </defs>
+</svg>
